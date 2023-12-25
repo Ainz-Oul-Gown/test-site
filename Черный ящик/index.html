@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html style="height: -webkit-fill-available; background-color: #f4f4f4;">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <title>Черный ящик</title>
 </head>
-<body style="height: -webkit-fill-available">
-    <div class="LeftEl" style="height: -webkit-fill-available">
+<body >
+    <div class="LeftEl" >
         <h1 id="uptest" style="margin-top:90px">Тестирование методом черного ящика</h1>
         <div class="varik">
             <button type="button" id="btn" onclick="onClickSlider()">Открыть задание</button>
             <p>Номер варианта:</p>
-            <select id="variantX" class="variant" onchange="onChange();">
+            <label for="variantX"></label><select id="variantX" class="variant" onchange="onChange();">
                 <option value=""></option>
                 <option value="Вариант 1/variant1.html">Вариант 1</option>
                 <option value="Вариант 2/variant2.html">Вариант 2</option>
@@ -19,7 +20,7 @@
             </select>
         </div>
         <div class="frame-container">
-            <iframe id="frm" scr=""></iframe>
+            <iframe id="frm"></iframe>
         </div>
     </div>
     <div class="RightEl">
@@ -344,7 +345,7 @@
                         2.	Внимательно изучите формулировку своего варианта задачи, подготовьте тесты по методикам стратегии "черного ящика" (метод эквивалентных разбиений,  метод граничных условий, метод анализа причинно-следственных связей, метод предположения об ошибке). Создайте необходимые таблицы и заполните их.
                         3.	Предлагаемые тесты сведите в таблицу результатов.
                     </p>
-                    <table border="1">
+                    <table>
                         <tr>
                             <th>Номер теста</th>
                             <th>Назначение теста</th>
@@ -519,7 +520,7 @@
                         2.	Внимательно изучите формулировку своего варианта задачи, подготовьте тесты по методикам стратегии "черного ящика" (метод эквивалентных разбиений,  метод граничных условий, метод анализа причинно-следственных связей, метод предположения об ошибке). Создайте необходимые таблицы и заполните их.
                         3.	Предлагаемые тесты сведите в таблицу результатов.
                     </p>
-                    <table border="1">
+                    <table>
                         <tr>
                             <th>Номер теста</th>
                             <th>Назначение теста</th>

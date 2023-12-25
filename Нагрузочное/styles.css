@@ -30,7 +30,6 @@ p{
 }
 .rightEl {
     display: none;
-    height: -webkit-fill-available;
     margin: 50px;
     padding: 29px;
     flex-direction: column;
